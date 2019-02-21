@@ -19,14 +19,14 @@
       width: 100%;
       grid-row: 2 /6;
       grid-column: 2/6;
-      box-shadow: 0 2rem 5rem rgba(#000, 0.1);
+      box-shadow: 0 2rem 5rem rgba(#000, 0.2);
     }
     &--2 {
-      width: 115%;
+      width: 125%;
       grid-row: 4/6;
       grid-column: 4/7;
       z-index: 10;
-      box-shadow: 0 2rem 5rem rgba(#000, 0.2);
+      box-shadow: 0 2rem 5rem rgba(#000, 0.4);
     }
   }
   &__content {
