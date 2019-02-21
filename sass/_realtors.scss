@@ -6,6 +6,10 @@
   justify-content: center;
   justify-items: center;
   grid-row-gap: 2rem;
+  @media screen and (max-width: $bp-medium) {
+    padding: 3rem;
+    grid-column: 1/-1;
+  }
 
   &__list {
     display: grid;
@@ -13,6 +17,13 @@
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
+    @media screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+    @media screen and (max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
+      grid-row-gap: 3vh;
+    }
   }
 
   &__img {
